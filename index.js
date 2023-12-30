@@ -33,7 +33,7 @@ const noteURL = mongoose.model('notes', NotesSchema);
 
 // MongoDB URI and connection
 
-const mongoURI = 'mongodb+srv://amit:amit@cluster0.6nkx33w.mongodb.net/mynotebook'; // Replace with your MongoDB connection string
+const mongoURI = 'mongodb+srv://amit:amit@cluster0...................mongodb.net/mynotebook'; // Replace with your MongoDB connection string
 
 mongoose.connect(mongoURI)
   .then(() => console.log("Connected to MongoDB successfully"))
