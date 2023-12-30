@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 app.use(express.json());
 
-const url = 'mongodb+srv://amit:amit@cluster0.6nkx33w.mongodb.net'; //replace url
+const url = 'mongodb+srv://.................................................mongodb.net'; //replace url
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let db;
